@@ -1,5 +1,15 @@
 # Sistema de Observabilidade com IA
 
+![AWS](https://img.shields.io/badge/AWS-Serverless-FF9900?logo=amazonwebservices&logoColor=white)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-Claude%20Haiku-232F3E?logo=amazon&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-Python%203.12-FF9900?logo=awslambda&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-GSI%20%2B%20TTL-4053D6?logo=amazondynamodb&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Proxy%20SigV4-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?logo=react&logoColor=black)
+![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)
+
 **Capstone** da trilha de estudos de **AWS AI Services**. Um pipeline serverless e
 orientado a eventos que detecta erros em logs, usa o **Amazon Bedrock (Claude Haiku)**
 para analisar a **causa raiz**, persiste o incidente no **DynamoDB**, **notifica** via
