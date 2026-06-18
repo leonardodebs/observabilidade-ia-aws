@@ -1,0 +1,14 @@
+# Copie para terraform.tfvars e ajuste os valores.
+
+# E-mail que recebera notificacoes de incidentes CRITICO/ALTO.
+# Apos o apply, confirme a inscricao no e-mail enviado pela AWS.
+notification_email = "seu-email@exemplo.com"
+
+# Regiao AWS (opcional — padrao us-west-2)
+# aws_region = "us-west-2"
+
+# Modelo Bedrock (opcional — padrao Claude Haiku 4.5 via inference profile)
+# bedrock_model_id = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+
+# Criar o Lambda da API com Function URL (opcional — padrao true)
+# criar_api = true

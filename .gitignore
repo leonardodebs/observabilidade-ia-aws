@@ -1,0 +1,22 @@
+# Terraform
+terraform/.terraform/
+terraform/build/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+# O .terraform.lock.hcl É versionado de proposito (versoes reproduziveis dos providers).
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Front-end
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Segredos
+.env

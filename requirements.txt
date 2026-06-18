@@ -1,0 +1,8 @@
+# Dependencias dos scripts locais (src/ e tests/).
+# Os Lambdas usam apenas boto3 (ja presente no runtime AWS), sem dependencias extras.
+boto3>=1.34.0
+rich>=13.7.0
+
+# Backend proxy do front-end (opcional)
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
