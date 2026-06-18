@@ -315,6 +315,19 @@ ao terminar.
 
 ---
 
+## 📖 Documentação
+
+Documentação detalhada na pasta [`docs/`](docs/):
+
+- **[Arquitetura](docs/ARQUITETURA.md)** — componentes, fluxo de dados, modelo de
+  dados, segurança, resiliência e decisões de projeto.
+- **[Runbook](docs/RUNBOOK.md)** — procedimentos operacionais, health checks e
+  troubleshooting.
+- **[Variáveis de Ambiente](docs/VARIAVEIS-AMBIENTE.md)** — template completo de
+  configuração (`.env`, `terraform.tfvars`, vars dos Lambdas).
+
+---
+
 ## 📚 Contexto
 
 Projeto **capstone** da trilha de estudos de AWS AI Services. Demonstra um sistema
